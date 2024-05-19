@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+ 
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background: rgb(221, 146, 8);
+    border-radius: 0px;
+  }
+  
+.shoppingCardHeadline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ShoppingCardImg{
+    height: 38px;
+}
+.shoppingCardHeadline{
+    color: black;
+}
+
+.HeaderTop{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(221, 146, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+}
+.LeftContent{
+    width: 70%;
+    margin-left: 10px;
+}
+.RightContent{
+    width: 30%;
+    min-height: 200px;
+    height: fit-content;
+    margin-left: 30px;
+    border: solid 1px black;
+    border-radius: 5px;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+}
+.SideContent{
+    display: flex;
+}
+.BesteckImg{
+    height: 60px;
+}
+
+.ItemCardFood {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.PriceCardPrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemCardDescription{
+    width: 100%;
+    font-size: 15px !important;
+}
+
+.ItemCard{
+    height: 100px;
+    width: 100%;
+    border-radius: 15px;
+    border: outset 2px lightgrey;
+    background-color: rgba(190, 187, 187, 0.616);
+    margin-bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: -2px 1px 17px 5px rgb(199 199 199 / 20%);
+    
+}
+.HeaderImg{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.NavBar{
+    width: 100%;
+    height: 50px;
+    color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.568);
+    margin-bottom: 5px;
+
+}   
+.NavLinks{
+    text-decoration: none;
+    color: orange;
+    cursor: pointer;
+    font-size: 26px;
+    border: outset 2px rgba(238, 129, 4, 0.514);
+    border-radius: 10px;
+    padding: 5px;
+}
+.NavLinks:hover{
+    box-shadow: inset 100px 0 0 0 #f88501;
+    color: rgb(255, 255, 255);
+}
+.Rezession{
+    height: 60px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: orange;
+   justify-content: space-between;
+   margin-bottom: 30px;
+   
+}
+.RezessionSection{
+    display: flex;
+    align-items: center;
+}
+
+.PlusImg{
+    height: 25px;
+}
+
+.StarImg{
+    height: 20px;
+}
+.cardItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.deletButton{
+    width: 18px;
+    height: 18px;
+    background-color: rgba(187, 88, 88, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addedItems{
+    margin-bottom: 10px;
+}
+.Display-block{
+    display: block;
+    font-size: 18px;
+}
+
+.payButton{
+    height: 40px;
+    background-color: #00ADC1;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+.amountsection{
+    display: flex;
+    gap:5px;
+    
+}
+
+.Payment{
+    display: flex;
+    justify-content: center;
+}
+
+.amountbutton{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Mobile{
+    display: none;
+}
+.mobileBasket{
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+.Logoimg{
+    height: 150px;
+    border-radius: 50%;
+}
+.LogoSection{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.RezessionSection{
+    display: flex;
+}
+.MobileButton{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    transition: all 120ms ease-in-out;
+}
+.HideMobile{
+    display: none;
+}
+.infoImg{
+    height: 25px;
+}
+.infoIcon{
+    padding-right: 10px;
+}
+.payButton2{
+    display: none;
+    height: 40px;
+    background-color: #00ADC1;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+    margin-left: 10px;
+}
+.footer{
+    height: 120px;
+    background-color: #f88501;
+    color: white;
+    font-size: 18px;
+}
+.footerDiv{
+    display: flex;
+    justify-content: center;
+}
+.footerLogo{
+    height: 45px;
+}
+.footerDiv2{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media(max-width: 320px){
+    .NavLinks{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 750px){
+    .Display-block{
+        font-size: 16px;
+    }
+    .NavLinks{
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 600px){
+ 
+ .show{
+    display: none;
+ }
+}
+
+@media(max-width: 600px){
+    .NavLinks{
+        font-size: 18px;
+        padding: 5px;
+        margin-right: 0px;
+    }
+
+    .ItemCard{
+        font-size: 16px;
+    }
+
+    .ItemCardDescription{
+        font-size: 14px;
+    }
+    .ItemCardFood{
+        font-size: 16px;
+    }
+    .ItemCardDescription{
+        font-size: 12px !important;
+    }
+    .ShoppingCardImg{
+        height: 20px;
+    }
+    .h3{
+        font-size: 16px;
+        
+    }
+    .RightContent{
+        display: none;
+        margin: 0;
+    }
+    .shoppingCardHeadline{
+        display: none;
+    }
+    .LeftContent{
+        width: 90%;
+        margin-left: 5;
+    }
+    .Rezession{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top:5px;
+        height: 15px;
+    }
+    .StarImg{
+        height: 15px;
+    }
+   .Payment{
+    display: flex;
+    justify-content: space-between;
+   }
+   .Mobile {
+    display: block;
+    margin: px;
+   }
+   .HideMobile{
+    display: block;
+   }
+   .Logoimg{
+    height: 100px;
+   }
+   .RezessionSection{
+    font-size: 14px;
+   }
+   .payButton2{
+    display: flex;
+   }
+}
